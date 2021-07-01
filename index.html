@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Forms</title>
+</head>
+<body>
+    <h1>Working with HTML5 Web Forms</h1>
+<form action="">
+    <p>
+        <input type="text" placeholder="This is used to collect text content">
+    </p>
+
+    <p>
+        <input type="email" placeholder="This is used to collect email address">
+    </p>
+
+    <p>
+        <input type="tel" placeholder="This is used to collect telephone number">
+    </p>
+
+    <p>
+        <input type="url" placeholder="This is used to collect website URL">
+    </p>
+
+    <p>
+        <input type="number" placeholder="This is used to collect numeric values">
+    </p>
+
+    <p>
+        <input type="radio" name="gender" value="Male">
+        <input type="radio" name="gender" value="Female">This allows user to choose one of two or more list items
+    </p>
+
+    <p>
+        My Favourite movie 
+        <input type="checkbox" name="movies[]" value="Pursuit of Happiness">Pursuit of Happiness
+        <input type="checkbox" name="movies[]" value="Skyfall - No Time To Die">Skyfall - No Time To Die 
+        <input type="checkbox" name="movies[]" value="Game of Thrones">Game of Thrones 
+        (This allows user to choose one or more from a list)
+    </p>
+
+    <p>
+        <input type="range">This allows user to pick a numeric values
+    </p>
+
+    <p>
+        <input type="color">This allows user to pick a color
+    </p>
+
+    <p>Working With the Pattern Attribute</p>
+
+    <p>
+        <label for="uimatric">UI Matric Pattern:</label>
+        <input type="text" placeholder="Format: 000000" id="uimatric" pattern="[0-9]{6}">
+    </p>
+
+    
+    <p>
+        <label for="ooumatric">UI Matric Pattern:</label>
+        <input type="text" placeholder="Format: SCI/16/17/0533" 
+        id="ooumatric" pattern="[A-Z]{3}/[0-9]{2}/[0-9]{2}/[0-9]{4}">
+    </p>
+
+    <p>
+        <label for="ksumatric">KSU Matric Pattern:</label>
+        <input type="text" placeholder="Format: 12PY1039" 
+        id="ksumatric" pattern="[0-9]{2}[A-Z]{2}[0-9]{4}">
+    </p>
+
+    
+    <p>
+        <label for="unibenumatric">UNIBEN Matric Pattern:</label>
+        <input type="text" placeholder="Format: PSC1707499" 
+        id="unibenmatric" pattern="[A-Z]{3}[0-9]{7}">
+    </p>
+
+    <p>
+        <input type="submit" value="Register Student">This is used to submit a form
+    </p>
+
+    <p>
+        <input type="button" value="Register Student">This is simply a button
+    </p>
+
+</form> 
+</body>
+</html>
